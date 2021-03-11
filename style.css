@@ -29,6 +29,9 @@
     overflow-x: hidden;
   }
   .logo img {max-width: 35%;}
+  .grow { transition: all .2s ease-in-out; }
+  .grow:hover { transform: scale(1.1); }
+  
   img {
     max-width: 100%; /* this ensures images never break their container */
     height: auto;
