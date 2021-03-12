@@ -53,6 +53,21 @@ $(document).ready(function() {
 	slidesToScroll: 2
 });
 
+// epic gallery
+
+    $('[data-fancybox="gallery"]').fancybox({
+         loop: true,
+           buttons: [
+              "zoom",
+             "slideShow",
+             "thumbs",
+             "close"
+             ],
+           animationEffect: "zoom",
+        transitionEffect: "zoom-in-out",
+         });
+
+
 
  });
 
