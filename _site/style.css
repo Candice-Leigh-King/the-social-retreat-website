@@ -110,7 +110,7 @@
    font-family: "Playfair Display", serif;
    text-shadow: 1px 1px 4px rgb(0 0 0 / 50%);}
 
-   h4, h5, h6 {
+    h4, h5, h6 {
     font-family: "Playfair Display", serif;
     color: #766c5b;
     line-height: 1.5;
@@ -118,7 +118,7 @@
     font-weight: 100;
   }
 
-   h2, h3 {
+    h2, h3 {
     line-height: 1;
     margin-bottom: 0.8rem;
     font-family: 'Manrope', sans-serif;
@@ -127,6 +127,10 @@
     letter-spacing: 1px;
     text-shadow: 4px 4px 5px rgba(0,0,0,0.5);
   }
+
+  .reg h3 {
+    color: #766c5b;
+    text-shadow: 0px 0px 0px rgba(0,0,0,0);}
 
   h2  { font-size: 2rem;  }
   h3  { font-size: 1.8rem;  }
@@ -232,7 +236,7 @@
     color: #faf8f4;
 
       }
-  .bold {font-weight: bolder;}    
+  .bold {font-weight: bolder;}
 
   .services {
     padding: 0% 3% 0% 3%;
@@ -576,6 +580,12 @@ span.psw {
     background-position: top;
     min-height: 80vh;
   }
+  .banner3 {
+    background-image: url('/images/banner5.jpg');
+    background-size: cover;
+    background-position: bottom;
+    min-height: 80vh;
+  }
 
   .fixed {
     background-attachment: fixed;
@@ -621,14 +631,16 @@ span.psw {
   }
 
 
-  .bg-image {
-    background-size: contain;
+  .bg-image-safari {
+    background-image: url('/images/safari.jpg');
+    background-size: cover;
     background-position: center;
     min-height: 100%;
     background-repeat: no-repeat;
   }
 
-  .bg-image-clients {
+  .bg-image-beach {
+      background-image: url('/images/beach.png');
     background-size: cover;
     background-position: center;
     min-height: 100%;
