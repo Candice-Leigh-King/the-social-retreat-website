@@ -439,7 +439,9 @@ span.psw {
     border-bottom: solid #e3dfd4; 1px;
   }
 
-  .sub-footer a {padding: 0% 2% 0% 2%;}
+  .sub-footer a {
+    padding: 0% 2% 0% 2%;
+  }
 
   /* Dropdown Header */
 
@@ -627,20 +629,6 @@ span.psw {
 
   .image-slider {overflow: hidden;}
 
-  .bg-image-portfolio {
-    background-size: cover;
-    background-position: center;
-    background-color: #d3ccc2;
-    background-repeat: no-repeat;
-  }
-
-  .bg-image-content {
-    background-size: cover;
-    background-position: center;
-    min-height: 100%;
-    background-repeat: no-repeat;
-    }
-
 
 /* javascript */
 
@@ -732,29 +720,6 @@ span.psw {
 
   .hover-inner p {
     margin-bottom: 0;
-  }
-
-  /* Blog Post Elements */
-  /* ---- Blog loop elements style 1 ------ */
-  .blog-loop .blog-item {
-    color: inherit;
-    text-decoration: none;
-    width: 100%;
-    margin: 0;
-    display:block;
-  }
-
-  .blog-loop .bg-image {
-    padding-bottom: 60%;
-    margin-bottom: 0.5rem;
-  }
-
-  .social-share nav [class*=fa] {
-    padding: 0 1em 0 0;
-  }
-
-  .social-share hr{
-    margin: 3rem 0;
   }
 
   /* ----- FORMS --------------------------- */
