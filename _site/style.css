@@ -159,8 +159,10 @@
     font-weight: bolder;
     text-shadow: 1px 1px 3px rgb(0 0 0 / 50%);}
 
-  a {color: #766c5c;
+  a {color: #c1b9ac;
   text-decoration: none;}
+
+  a:hover {color: #766c5b;}
 
   .course a:hover {
     color: white;
