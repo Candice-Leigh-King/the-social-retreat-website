@@ -630,6 +630,13 @@ span.psw {
     background-repeat: no-repeat;
   }
 
+  .bg-image-portfolio {
+    background-size: cover;
+    background-position: center;
+    background-color: #d3ccc2;
+    background-repeat: no-repeat;
+  }
+
   .image-slider {overflow: hidden;}
 
 
@@ -1168,6 +1175,7 @@ a.bg-image-photography {
     font-size: 0.9rem;}
 
   .sm-bold { font-size: 2rem;}
+
   .bold1 {
     font-size: 6rem;
     font-weight: 200;
