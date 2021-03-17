@@ -515,21 +515,47 @@ span.psw {
     right:0;
     left:0;
     bottom: 0;
-    background: linear-gradient(130deg,rgba(255,255,255,.8) 50%,#d9d5cc 50%);
-    padding: 16% 10% 10% 10%;
+    background: linear-gradient(25deg,rgba(255,255,255,.9) 50%,rgba(217,213,204,.9) 50%);
+    padding: 30% 10% 10% 10%;
     z-index: 10;
 
 
   }
-  .mobile-menu a {
+  .mobile-menu .grow {
     color: rgb(120,120,125);
-    padding: 1rem;
+    padding: 1.2rem;
+    display: block;
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  .mobile-menu .emphasis {
+    color: rgb(120,120,125);
+    padding: 3%;
+    display: block;
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid rgb(120,120,125);
+    font-size: 1.3rem;
+  }
+
+  .mobile-menu .emphasis:hover {
+    color: white;
+    padding: 3%;
     display: block;
     text-decoration: none;
     font-family: "Playfair Display", serif;
     text-align: center;
-  }
+    border-radius: 2px;
+    background-color:  rgb(120,120,125);
+    border: 1px solid rgb(120,120,125);
 
+
+  }
 
   /* -- Footer -- */
 
