@@ -591,7 +591,7 @@ span.psw {
     min-height: 80vh;
   }
 
-  .fixed {position: relative;}
+  .fixed {position: fixed;}
   @-webkit-keyframes fixed {
       from { background-attachment: fixed;}
       to   { position:relative;}
