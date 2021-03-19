@@ -594,10 +594,7 @@ span.psw {
     min-height: 80vh;
   }
 
-  .fixed {
-    background-attachment: local;
-  }
-
+  
   /* @-webkit-keyframes fixed {
       from { background-attachment: fixed;}
       to   { background-attachment: local;}
