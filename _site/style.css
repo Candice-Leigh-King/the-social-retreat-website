@@ -264,10 +264,6 @@
     margin-bottom: 1rem;
   }
 
-  .quote-icon {  /* You can also change the fonts for these icons specifically */
-    font-size: 6rem;
-    line-height: 1;
-  }
 
   /* ---------------  Button Styles  --------- */
   /* We have created lots of different button styles, you probably don't need to have quite this many styles depending on your site */
@@ -595,7 +591,7 @@ span.psw {
     min-height: 80vh;
   }
 
-  .foxed {position: relative;}
+  .fixed {position: relative;}
   /* @-webkit-keyframes fixed {
       from { background-attachment: fixed;}
       to   { position:relative;}
