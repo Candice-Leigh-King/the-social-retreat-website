@@ -598,10 +598,10 @@ span.psw {
     background-attachment: local;
   }
 
-  @-webkit-keyframes fixed {
+  /* @-webkit-keyframes fixed {
       from { background-attachment: fixed;}
       to   { background-attachment: local;}
-  }
+  } */
 
   .banner-60 {
     background-size: cover;
