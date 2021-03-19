@@ -406,6 +406,8 @@ span.psw {
 
   }
 
+
+
   header nav a,
   .inline a {
     display: inline-block;
@@ -439,7 +441,6 @@ span.psw {
 
   footer a:hover {
     color: #e3dfd4;
-    border-bottom: solid #e3dfd4; 1px;
   }
 
   .sub-footer a {
@@ -594,10 +595,10 @@ span.psw {
     min-height: 80vh;
   }
 
-  
+  .foxed {position: relative;}
   /* @-webkit-keyframes fixed {
       from { background-attachment: fixed;}
-      to   { background-attachment: local;}
+      to   { position:relative;}
   } */
 
   .banner-60 {
@@ -1243,31 +1244,6 @@ a.bg-image-photography {
     border-bottom: solid white 5px;
                 }
 
-  .bump-right {
-    margin-top: 0.5rem;
-    margin-left: 5rem;
-    margin-bottom: 0.5rem;
-    margin-right: -6rem;
-    z-index: 1;
-    position: relative;
-            }
-
-  .bump-left {
-    margin-top: 0.5rem;
-    margin-left: -9rem;
-    margin-bottom: 0.5rem;
-    margin-right: 1.5rem;
-    z-index: 1;
-    position: relative;
-              }
-
-  .bump-up {
-    margin-top: -10rem;
-    margin-left: 1rem;
-    margin-right:1rem;
-    z-index:1;
-            }
-
   .button, .button-solid, .button-inverted {
     text-decoration: none;
     color: white;
@@ -1365,27 +1341,6 @@ a.bg-image-photography {
     border-right: solid white 2.5px;
     border-bottom: solid white 2.5px;
       }
-
-  .bump-left {
-    margin-top: -26rem;
-    margin-left: 0rem;
-    margin-bottom: 0rem;
-    margin-right: 0rem;
-    position: relative;}
-
-  .bump-right {
-    margin-top: 0rem;
-    margin-left: 0rem;
-    margin-bottom: 0rem;
-    margin-right: 0rem;
-    position: relative;}
-
-  .bump-up {
-      margin-top: -5rem;
-      margin-left: 1rem;
-      margin-right:1rem;
-      z-index:1;
-              }
 
   .banner-social {
       background-size: cover;
