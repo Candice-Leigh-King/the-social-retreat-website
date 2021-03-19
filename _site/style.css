@@ -1175,6 +1175,8 @@ a.bg-image-photography {
 /* This media query kicks into action at the gridlex sm breakpoint */
 @media(max-width:768px) {
 
+  .banner, .banner2, .banner3 {min-height: 90vh;}
+
   .mob-hide {
     display: none;
     }
@@ -1182,6 +1184,7 @@ a.bg-image-photography {
   .hamburger {
     display: block;
     font-size: 2rem;
+    color: white;
   }
 
   .cross {
