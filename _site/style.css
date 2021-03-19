@@ -592,10 +592,10 @@ span.psw {
   }
 
   .fixed {position: relative;}
-  /* @-webkit-keyframes fixed {
+  @-webkit-keyframes fixed {
       from { background-attachment: fixed;}
       to   { position:relative;}
-  } */
+  }
 
   .banner-60 {
     background-size: cover;
