@@ -518,8 +518,6 @@ span.psw {
     background: linear-gradient(25deg,rgba(255,255,255,.9) 50%,rgba(217,213,204,.9) 50%);
     padding: 30% 10% 10% 10%;
     z-index: 10;
-
-
   }
   .mobile-menu .grow {
     color: rgb(120,120,125);
@@ -597,7 +595,12 @@ span.psw {
   }
 
   .fixed {
-    background-attachment: fixed;
+    background-attachment: local;
+  }
+
+  @-webkit-keyframes fixed {
+      from { background-attachment: fixed;}
+      to   { background-attachment: local;}
   }
 
   .banner-60 {
@@ -611,10 +614,6 @@ span.psw {
     background-repeat: no-repeat;
   }
 
-
-  .fixed {
-    background-attachment: fixed;
-  }
 
   .banner-with-header {
     padding-top: 6rem;
@@ -655,6 +654,23 @@ span.psw {
     min-height: 100%;
     background-repeat: no-repeat;
   }
+
+  .bg-mock-up1 {
+      background-image: url('/images/mockup1.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .bg-mock-up2 {
+    background-image: url('/images/mockup2.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    background-repeat: no-repeat;
+  }
+
 
   .bg-image-portfolio {
     background-size: cover;
