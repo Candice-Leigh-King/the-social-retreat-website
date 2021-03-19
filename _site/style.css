@@ -591,11 +591,6 @@ span.psw {
     min-height: 80vh;
   }
 
-  .fixed {background-attachment: fixed;}
-  @-webkit-keyframes fixed {
-      from { background-attachment: fixed;}
-      to   { position:relative;}
-  }
 
   .banner-60 {
     background-size: cover;
@@ -1305,8 +1300,8 @@ a.bg-image-photography {
     display: none;
     }
 
-  h1 {font-size: 1.7rem;}
-  h2 {font-size: 2rem;}
+  h1 {font-size: 1.5rem;}
+  h2 {font-size: 1.2rem;}
   h3 {font-size: 1.2rem;}
   h4 {font-size: 1.1rem;}
 
