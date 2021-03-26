@@ -242,11 +242,20 @@
 
 
   .bold1 {
-    font-size: 10rem;
+    font-size: 3.5rem;
     font-weight: 100;
     color: #faf8f4;
-
       }
+
+  .dream {font-size: 1.8rem;}
+  .strike-through {text-decoration: line-through;}
+
+  .price {
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 3px rgb(0 0 0 / 36%);}
+
   .bold {font-weight: bolder;}
 
   .services {
@@ -656,6 +665,14 @@ span.psw {
 
   .bg-mock-up2 {
     background-image: url('/images/mockup2.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .bg-mock-up3 {
+    background-image: url('/images/banner6.jpg');
     background-size: cover;
     background-position: center;
     min-height: 100%;
@@ -1078,11 +1095,6 @@ a.bg-image-photography {
   border: 2px solid 2d1f14;
 }
 
-.price {
-    font-size: 3rem;
-    font-weight: 300;
-}
-
 .pricing-name {
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -1205,6 +1217,7 @@ a.bg-image-photography {
   h1 {font-size: 2rem;}
   h3 {font-size: 1.4rem;}
   h4 {font-size: 1.2rem;}
+  h5 {font-size: 1.1rem;}
   .web-dev h1 {font-size: 1.8rem;}
   .services {
     padding: 0% 3% 0% 3%;
@@ -1213,9 +1226,13 @@ a.bg-image-photography {
   .sm-bold { font-size: 2rem;}
 
   .bold1 {
-    font-size: 6rem;
+    font-size: 3rem;
     font-weight: 200;
     margin-bottom: 0.8rem;}
+
+  .price{
+    text-align: center;
+    padding-bottom: 2%;}
 
   .small-font{ font-size: 0.8rem}
 
