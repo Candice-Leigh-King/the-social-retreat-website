@@ -253,7 +253,8 @@
 
   .dates{
     font-family: 'Manrope', sans-serif;
-    font-size: 1.8rem;}
+    font-size: 1.8rem;
+    text-transform: none;}
   .strike-through {text-decoration: line-through;}
 
   .price {
