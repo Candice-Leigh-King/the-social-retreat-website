@@ -242,12 +242,18 @@
 
 
   .bold1 {
-    font-size: 3.5rem;
+    font-size: 6rem;
     font-weight: 100;
     color: #faf8f4;
+    text-transform: uppercase;
       }
 
-  .dream {font-size: 1.8rem;}
+  .dream {font-size: 1.8rem;
+  }
+
+  .dates{
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.8rem;}
   .strike-through {text-decoration: line-through;}
 
   .price {
@@ -255,6 +261,8 @@
     color: white;
     font-size: 2rem;
     text-shadow: 2px 2px 3px rgb(0 0 0 / 36%);}
+
+  .bird {font-size: 2.5rem;}
 
   .bold {font-weight: bolder;}
 
@@ -1226,13 +1234,17 @@ a.bg-image-photography {
   .sm-bold { font-size: 2rem;}
 
   .bold1 {
-    font-size: 3rem;
+    font-size: 6rem;
     font-weight: 200;
     margin-bottom: 0.8rem;}
 
   .price{
     text-align: center;
-    padding-bottom: 2%;}
+    font-size: 1.2rem;}
+
+  .bird {font-size: 1.6rem;}
+
+  .dates {font-size: 1rem;}
 
   .small-font{ font-size: 0.8rem}
 
