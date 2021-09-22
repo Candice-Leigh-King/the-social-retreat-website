@@ -22,7 +22,7 @@
     font-family: 'Noto Sans HK', sans-serif;
     color: rgb(120,120,125);
     font-weight: bolder;
-  font-size: 0.8rem;}
+    font-size: 0.8rem;}
 
   .logo img {max-width: 35%;}
   .grow { transition: all .2s ease-in-out; }
@@ -362,7 +362,7 @@
     }
 
     form {
-  border: 3px solid #f1f1f1;
+  border: 3px solid #c1b9ac;
 }
 
 /* Full-width inputs */
