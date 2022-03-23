@@ -29,7 +29,7 @@ $(document).ready(function() {
 		});
 
 		// faqs
-
+	$(document).ready(function() {
 		$(".accordion1").click(function(){
 
 			$(this).toggleClass('active');
@@ -77,7 +77,7 @@ $(document).ready(function() {
 			$(this).toggleClass('active');
 			$(".panel8").slideToggle();
 			})
-
+});
 
 // epic gallery
 
