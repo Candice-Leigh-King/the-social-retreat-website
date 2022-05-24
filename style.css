@@ -465,17 +465,6 @@ span.psw {
     padding: 0% 2% 0% 2%;
   }
 
-  /* Dropdown Header */
-
-
-  header .dropdown:hover .dropdown-menu {
-    display: block;
-    position: absolute;
-    top: 2rem;
-    right: -1rem;
-    background-color: whit
-  }
-
   /* Fixed Header Option */
 
   header.fixed {
@@ -1224,7 +1213,6 @@ a.bg-image-photography {
 
 /* Accordian slides */
 .panel1, .panel2, .panel3, .panel4, .panel5, .panel6, .panel7, .panel8 {display: none;}
-
 
 .panel1, .panel2, .panel3, .panel4, .panel5, .panel6, .panel7, .panel8 p {
   padding: 0% 1%;
