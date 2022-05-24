@@ -78,6 +78,7 @@ $(document).ready(function() {
 			$(".panel8").slideToggle();
 			})
 
+
 // epic gallery
 
     $('[data-fancybox="gallery"]').fancybox({
